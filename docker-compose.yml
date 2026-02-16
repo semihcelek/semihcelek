@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  semih-blog:
+  semihcelek-blog:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: semih-blog-live
+    container_name: semihceleksite
     restart: unless-stopped
     networks:
       - internal_nw # Connect to your main Caddy reverse proxy network
