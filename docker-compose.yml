@@ -5,6 +5,8 @@ services:
     image: caddy:alpine
     container_name: semih-blog-live
     restart: unless-stopped
+    networks:
+      - internal_nw
     volumes:
       # Portainer clones the repo into a local folder on the host. 
       # '.' refers to the root of the branch (your built HTML).
