@@ -28,7 +28,7 @@ jobs:
       - name: Push
         uses: nicholasgriffintn/github-branch-deployment-action@0.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: release-static-site
           FOLDER: ./public
           MESSAGE: 'Build: ({sha}) {msg}'
