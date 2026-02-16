@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Semih's Blog</title><link>http://semihcelek.com/categories/</link><description>Recent content in Categories on Semih's Blog</description><generator>Hugo</generator><language>en</language><managingEditor>m.semih.celek@gmail.com (M. Semih Celek)</managingEditor><webMaster>m.semih.celek@gmail.com (M. Semih Celek)</webMaster><copyright>© 2026 Semih Celek</copyright><lastBuildDate>Mon, 16 Feb 2026 21:46:10 +0300</lastBuildDate><atom:link href="http://semihcelek.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Devlog</title><link>http://semihcelek.com/categories/devlog/</link><pubDate>Mon, 16 Feb 2026 21:30:00 +0300</pubDate><author>m.semih.celek@gmail.com (M. Semih Celek)</author><guid>http://semihcelek.com/categories/devlog/</guid><description/></item><item><title>Personal</title><link>http://semihcelek.com/categories/personal/</link><pubDate>Mon, 16 Feb 2026 21:30:00 +0300</pubDate><author>m.semih.celek@gmail.com (M. Semih Celek)</author><guid>http://semihcelek.com/categories/personal/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Semih&#39;s Blog</title>
+    <link>http://semihcelek.com/categories/</link>
+    <description>Recent content in Categories on Semih&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>m.semih.celek@gmail.com (M. Semih Celek)</managingEditor>
+    <webMaster>m.semih.celek@gmail.com (M. Semih Celek)</webMaster>
+    <copyright>© 2026 Semih Celek</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 21:46:10 +0300</lastBuildDate>
+    <atom:link href="http://semihcelek.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devlog</title>
+      <link>http://semihcelek.com/categories/devlog/</link>
+      <pubDate>Mon, 16 Feb 2026 21:30:00 +0300</pubDate><author>m.semih.celek@gmail.com (M. Semih Celek)</author>
+      <guid>http://semihcelek.com/categories/devlog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://semihcelek.com/categories/personal/</link>
+      <pubDate>Mon, 16 Feb 2026 21:30:00 +0300</pubDate><author>m.semih.celek@gmail.com (M. Semih Celek)</author>
+      <guid>http://semihcelek.com/categories/personal/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
