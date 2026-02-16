@@ -9,7 +9,7 @@ COPY . .
 
 # Initialize submodules (LoveIt theme) and build
 # We use the 'extended' Hugo version for LoveIt's SCSS
-RUN git submodule update --init --recursive
+RUN git submodule update --recursive --remote
 RUN hugo
 
 # Stage 2: Serve the site
