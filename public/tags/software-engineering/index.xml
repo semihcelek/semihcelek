@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software-Engineering on Semih&#39;s Blog</title>
+    <link>http://localhost:1313/tags/software-engineering/</link>
+    <description>Recent content in Software-Engineering on Semih&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>m.semih.celek@gmail.com (M. Semih Celek)</managingEditor>
+    <webMaster>m.semih.celek@gmail.com (M. Semih Celek)</webMaster>
+    <copyright>© 2026 Semih Celek</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 21:30:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World: From Unity Architectures to Content Creation</title>
+      <link>http://localhost:1313/hello_world/</link>
+      <pubDate>Mon, 16 Feb 2026 21:30:00 +0300</pubDate><author>m.semih.celek@gmail.com (M. Semih Celek)</author>
+      <guid>http://localhost:1313/hello_world/</guid>
+      <description>&lt;h2 id=&#34;welcome&#34;&gt;Welcome!&lt;/h2&gt;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Mehmet Semih Çelek&lt;/strong&gt;, a Unity Game Engineer based in Istanbul with over 4 years of experience in the industry. I am a Boğaziçi University alumnus currently focusing on building high-performance systems for Console, PC, and Mobile platforms.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m starting this blog to document my technical journey, share deep dives into game architecture, and kickstart my career in content creation focused on software engineering and Unity development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h2&gt;&#xA;&lt;p&gt;Currently, I am working at &lt;strong&gt;Roofstacks&lt;/strong&gt;, where I&amp;rsquo;m part of an AA Metroidvania project for console and PC. My daily work involves:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
