@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  semih-blog:
+    image: caddy:alpine
+    container_name: semih-blog-live
+    restart: unless-stopped
+    volumes:
+      # Portainer clones the repo into a local folder on the host. 
+      # '.' refers to the root of the branch (your built HTML).
+      - .:/usr/share/caddy
+
+networks:
+  internal_nw:
+    external: true
