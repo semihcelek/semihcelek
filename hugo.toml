@@ -1,18 +1,12 @@
-baseURL = "http://example.org/"
-
-
+baseURL = "http://semihcelek.com/"
 
 # Change the default theme to be use when building the site with Hugo
 
 theme = "LoveIt"
 
-
-
 # website title
 
-title = "My New Hugo Site"
-
-
+title = "Semih's Blog"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 
@@ -26,12 +20,9 @@ languageName = "English"
 
 hasCJKLanguage = false
 
-
-
 # copyright description used only for seo schema
 
-copyright = ""
-
+copyright = "S"
 
 
 # whether to use robots.txt
@@ -148,11 +139,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # website title for Open Graph and Twitter Cards
 
-  title = "My cool site"
+  title = "Semih Celek's Blog"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
 
-  description = "This is my cool site"
+  description = "Welcome to my blog, here I talk about softaware engineering and game development"
 
   # website images for Open Graph and Twitter Cards
 
@@ -164,9 +155,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.author]
 
-    name = "xxxx"
+    name = "M. Semih Celek"
 
-    email = ""
+    email = "m.semih.celek@gmail.com"
 
     link = ""
 
@@ -194,7 +185,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # title name
 
-      name = ""
+      name = "Semih Celek"
 
       # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -222,7 +213,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     #  whether to show Hugo and theme info
 
-    hugo = true
+    hugo = false
 
     #  whether to show copyright info
 
@@ -234,7 +225,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # Site creation time
 
-    since = 2019
+    since = 2022
 
     # ICP info only in China (HTML format is supported)
 
@@ -288,7 +279,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # optional site title override for the app when added to an iOS home screen or Android launcher
 
-    title = "My cool site"
+    title = "Semih Celek's Blog"
 
     # whether to omit favicon resource links
 
@@ -376,7 +367,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # URL of avatar shown in home page
 
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/avatar.jpg"
 
       #  title shown in home page (HTML format is supported)
 
@@ -420,19 +411,19 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "xxxx"
+    GitHub = "https://github.com/semihcelek"
 
-    Linkedin = ""
+    Linkedin = "https://www.linkedin.com/in/semih-celek/"
 
-    X = "xxxx" # 
+    X = "" # 
 
     Twitter = "" # 
 
-    Instagram = "xxxx"
+    Instagram = ""
 
-    Facebook = "xxxx"
+    Facebook = ""
 
-    Telegram = "xxxx"
+    Telegram = ""
 
     Medium = ""
 
@@ -580,7 +571,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     Phone = ""
 
-    Email = "xxxx@xxxx.com"
+    Email = "m.semih.celek@gmail.com"
 
     RSS = true # 
 
