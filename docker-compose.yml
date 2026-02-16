@@ -2,16 +2,13 @@ version: '3.8'
 
 services:
   semih-blog:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: semihceleksite
+    image: caddy:alpine
+    container_name: semih-blog-live
     restart: unless-stopped
-    networks:
-      - internal_nw # Connect to your main Caddy reverse proxy network
-    labels:
-      # Optional: if you use Watchtower to auto-update
-      - "com.centurylinklabs.watchtower.enable=true"
+    volumes:
+      # Portainer clones the repo into a local folder on the host. 
+      # '.' refers to the root of the branch (your built HTML).
+      - .:/usr/share/caddy
 
 networks:
   internal_nw:
