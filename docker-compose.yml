@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  semihcelek-blog:
+  semih-blog:
     build:
       context: .
       dockerfile: Dockerfile
@@ -11,7 +11,7 @@ services:
       - internal_nw # Connect to your main Caddy reverse proxy network
     labels:
       # Optional: if you use Watchtower to auto-update
-      # - "com.centurylinklabs.watchtower.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
 
 networks:
   internal_nw:
