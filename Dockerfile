@@ -1,22 +1,19 @@
 # Stage 1: Build the site
+# klakegg/hugo images come with git pre-installed, but we'll avoid using it
 FROM klakegg/hugo:ext-alpine AS builder
 
-# Set working directory
 WORKDIR /src
 
-# Copy your source code
+# Copy all files (including submodules already pulled by Portainer)
 COPY . .
 
-# Initialize submodules (LoveIt theme) and build
-# We use the 'extended' Hugo version for LoveIt's SCSS
-RUN git submodule update --recursive --remote
-RUN hugo
+# Build the site without touching git
+# We use --minify for production performance
+RUN hugo --minify
 
 # Stage 2: Serve the site
 FROM caddy:alpine
-
-# Copy built files from the builder stage
+# Copy the generated static files to Caddy's default directory
 COPY --from=builder /src/public /usr/share/caddy
 
-# Expose port 80
 EXPOSE 80
